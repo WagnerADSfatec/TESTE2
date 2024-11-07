@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+} 
+:root{
+    --color_01:#F8EDED;
+    --color_02:#ff8225;
+    --color_03:#b43f3f;
+    --color_04:#173b45;
+    --color_05:white;
+    --color_06:black;
+}
+/*--------------------------------------------------------------------------------------------*/
+.menu {
+    display: flex;
+    padding: 10px 25px;
+    background-color: var(--color_03);
+    gap: 35px;
+}
+
+.logo {
+    height: 50px;
+    
+   
+}
+
+.menu-lista-links {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    margin: 15px 0 10px 0;
+    text-align: center;
+   
+}
+
+.menu-link {
+    color: var(--color_01);
+    text-decoration: none;
+}
+
+.menu-link:hover {
+    color: var(--color_02);
+    text-shadow: 1px 1px var(--clr-itp-3);
+    transition: .3s;
+}
+
+/*----------------------------------------------------------------------------------------------------*/
+.topo{
+    background-color: var(--color_01);
+    background-image: url(../IMG/Rafael-Santoro.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 65vh;
+    background-size: 400px;
+}
+/*----------------------------------------------------------------------------------------------------*/
+.meio{
+    background-color: var(--color_02);
+}
+.f2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    height: 65vh;
+}
+.logo2{ 
+    height: 500px;
+}
+.video{
+    height: 300px;
+    width: 500px;
+}
+/*----------------------------------------------------------------------------------------------------*/
+.f3{
+    background-color: var(--color_03);
+    color: var(--color_04);
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.f4{
+    background-color: var(--color_01);
+    padding: 30px;
+  
+}
+.img_a{
+   height: 60px;
+   padding-left: 45%;
+}
+/*----------------------------------------------------------------------------------------------------*/
+.rodape {
+    display: flex;
+    padding: 10px 25px;
+    background-color: var(--color_04);
+    gap: 15px;
+    justify-content: center;
+}
+.rodape2{
+    padding-top: 30px;
+   text-align: center;
+   background-color: #173b45;
+    color: var(--color_01);
+}
+.rodape-lista-links {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    margin: 15px 0 10px 0;
+    text-align: center;
+   
+}
+
+.rodape-link {
+    color: var(--color_01);
+    text-decoration: none;
+}
+
+.rodape-link:hover {
+    color: var(--color_02);
+    text-shadow: 1px 1px var(--clr-itp-3);
+    transition: .3s;
+}
+/*----------------------------------------------------------------------------------------------------*/
+.topo2{
+   
+    background-color: var(--color_01);
+    
+}
+.titulo1{
+    padding: 10px;
+    text-align: center;
+    color: var(--color_04);
+    justify-content: center;
+}
+
+
+.text2{
+    background-color: var(--color_02);
+    padding: 20px;
+    color: var(--color_04);
+}
+
+.perfil2{
+   
+    background-color: var(--color_01);
+    
+}
+/*----------------------------------------------------------------------------------------------------*/
+.titulo2{
+    padding: 10px;
+    text-align: center;
+    color: var(--color_01);
+    justify-content: center;
+}
+
+
+.text3{
+    background-color: var(--color_04);
+    padding: 20px;
+    color: var(--color_01);
+}
+.perfil3{
+   
+    background-color: var(--color_02);
+    
+}
+/*----------------------------------------------------------------------------------------------------*/
+.titulo3{
+    padding: 10px;
+    text-align: center;
+    color: var(--color_02);
+    justify-content: center;
+}
+.text4{
+    background-color: var(--color_01);
+    padding: 20px;
+    color: var(--color_04);
+}
+.perfil4{
+   
+    background-color: var(--color_03);
+    
+}
+/*----------------------------------------------------------------------------------------------------*/
+.local1{
+   padding: 30px;
+    background-color: var(--color_01);
+    color: var(--color_02);
+}
+.carousel_local1{
+    padding: 30px;
+}
+.local_text-1{
+    padding: 30px;
+    background-color: var(--color_04);
+}
+.local_title1{
+    color: var(--color_01);
+}
+.local_title2{
+    color: var(--color_03);
+}
+/*----------------------------------------------------------------------------------------------------*/
+.local2{
+    padding: 30px;
+     background-color: var(--color_02);
+     color: var(--color_01);
+ }
+ .carousel_local2{
+     padding: 30px;
+ }
+ .local_text-2{
+     padding: 30px;
+     background-color: var(--color_03);
+ }
+ .local_title3{
+     color: var(--color_04);
+ }
+ .local_title4{
+     color: var(--color_02);
+ } 
+ /*----------------------------------------------------------------------------------------------------*/
+ .local3{
+    padding: 30px;
+     background-color: var(--color_03);
+     color: var(--color_04);
+ }
+ .carousel_local3{
+     padding: 30px;
+ }
+ .local_text-3{
+     padding: 30px;
+     background-color: var(--color_01);
+ }
+ .local_title5{
+     color: var(--color_02);
+ }
+ .local_title6{
+     color: var(--color_03);
+ } 
